@@ -22,7 +22,7 @@ console.log(persona.consulEdad());
 */
 
 
-
+/* Ejercicio 2*/
 function datos (nombre, apellido1, anios) {
 
     return {
