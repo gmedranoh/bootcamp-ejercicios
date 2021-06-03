@@ -1,3 +1,4 @@
+/* Ejercicio 1*/
 /*
 var persona = {
     nombre:'Gaby',
