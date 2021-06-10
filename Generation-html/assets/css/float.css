@@ -1,0 +1,25 @@
+.cajas {
+    max-width: 800px;  /* tamaño maximo que puede tener mi contenedor se usa porcentajes */ 
+   /* min-width: 900px;  /* tamaño maximo que puede tener mi contenedor se usa porcentajes */ 
+    /* max-width: 900px;  /* tamaño maximo que puede tener mi contenedor se usa porcentajes */ 
+
+    /*width: 90%; /* este se usa con porcentajes */
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    border: 2px solid black;
+
+}
+
+.caja {
+    width: 250px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+    border: 5px solid pink;
+    float: left;
+}
+
+.clearfix {
+    float: none; /* con none que no se vaya ni a la izquierda ni a la derecha */
+    clear: both;
+}

@@ -1,0 +1,22 @@
+.caja {
+    width: 400px;
+    height: 400px;
+}
+
+.uno {
+    background-color: yellow;
+    padding: 20px; /* Padding crea espacio extra dentro de un elemento */
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /* border-radius: 8px; */
+    border-end-end-radius: 8px; /* con esto solo un lado se vuelve curvo */
+
+}
+
+.dos {
+    background-color: green;
+    border-radius: 50%; /* Con esto podemos hacer radios */
+}

@@ -1,0 +1,46 @@
+/* Prueba de conexion con el html usamos el body y el background */
+body{
+    background-color: #D8D8D8;
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  20px;
+    font-weight: 700;   
+    
+    margin-left: 100px;
+}
+
+div {
+    font-size: 25px;
+    
+    height: 20px;
+    width: 1200px;    
+    font-weight: bold;    
+    margin-top: 50px; 
+    margin-left:50px;
+    padding: 20px;
+}
+
+.cero {
+    background-color: grey;  
+    color: white;
+}
+
+.uno {
+    background-image: url('../image/mikey.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.dos {
+    background-color: green;
+}

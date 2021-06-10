@@ -1,0 +1,70 @@
+/* body {
+    background-color: violet;
+} */
+
+/* Afecta directamente a h1 
+
+header > h1 {
+    color: green;
+}
+
+Afecta a todos los h1 dentro del header
+
+header  h1 {
+    color: green;
+}
+
+*/
+
+body {
+    background-color: rgba(32, 20, 141, 0.651); /* 0.651 este ultimo numero se ocupar para la transparencia */
+}
+
+header > h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+main > article > section {
+    width: 90%;
+    margin: 0 auto;
+    /* margin: 20px 10px 15px 20px arriba derecha abajo izquiera- como se mueve el reloj */
+}
+
+main > article > section > h3 {
+    font-size: 28px;
+    background-color: gray;
+    color: white;
+    padding: 5px 5px;
+}
+
+main > article > section > div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main > article > section > div > img {
+    float: left;
+    margin-right: 10px;
+
+}
+
+main > article > section > div > p {
+    text-align: justify;
+    text-indent: 15px; /* Realiza identado en la primera parte */
+    
+}
+
+main > article > section > div > p > em {
+    color: red;
+}
+
+main > article > section > div > p > span {
+    background: white;
+}
+
+
+.clear-fix {
+    clear:both;
+    float: none;
+}

@@ -1,0 +1,53 @@
+.borde {
+    margin-bottom: 20px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex; /* nos puso la letra centrada de la figura */
+    /* text-align: center; */
+    background-color: grey;
+    width: 200px;
+    height: 100px;
+}
+.bordes {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+}
+
+.a {    
+    border-end-end-radius: 80px;
+    float: left;
+}
+
+.b {
+    border-end-end-radius: 50px;
+    margin-left: 300;
+    float: left;
+}
+
+.c {    
+    border-end-end-radius: 40%;
+    
+}
+
+.d {
+    border-end-end-radius: 25px;
+    border-end-start-radius: 70px;
+    border-start-end-radius: 70px;
+    border-start-start-radius: 25px;
+    float: left;
+}
+
+.e {
+    border-end-end-radius: 15px;
+    border-end-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 15px;
+    float: left;
+}
+.f {    
+    border-radius: 50%;
+}

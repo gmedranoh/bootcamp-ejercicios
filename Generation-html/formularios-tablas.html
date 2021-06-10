@@ -1,0 +1,110 @@
+<!-- 09 de junio  -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formularios y tablas</title>
+    </head>
+    <body>
+        <h1>Formularios yTablas</h1>
+
+        <table border="1">
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td>Curso JS </td>
+                <td>Curso de Bootstrap</td>
+                <td>Curso de Java</td>
+                <td>Curso de MySql</td>
+                <td rowspan="4">Ingles</td>
+                <td rowspan="4">Descanso</td>
+            </tr>
+            <tr>
+                <td>Enero</td>
+                <td>Febrero</td>
+                <td>Marzo</td>
+                <td>Abril</td>
+            </tr>
+            <tr>
+                <td>uno</td>
+                <td>dos</td>
+                <td>tres</td>
+                <td>cuatro</td>
+            </tr>
+            <tr>
+                <td>Perro</td>
+                <td>Pato</td>
+                <td>Ganzo</td>
+                <td>Gato</td>
+            </tr>
+        </table>
+        <hr />
+
+        <form method="POST"> <!-- POST para que no sean visibles para el usuario -->
+            <!-- Get para hace busquedas ejmplo busqueda en google -->
+            <h3>Registrate</h3>
+            <p>
+                <label for="nombre">Nombre: </label> <!-- Hacer referencia al cuadro de input que información va dentro -->
+                <input type="text"  name="nombre" placeholder="tu nombre" required/>
+            </p>
+            <p>
+                <label for="mail">Correo Electronico</label>
+                <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required />
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password"  required/>
+            </p>
+            <p>
+                <label for="cuampleanios">Cumpleaños</label>
+                <input type="date" name="cuampleanios" />
+            </p>
+            <p>
+                <label for="cuampleanios">Cumpleaños</label>
+                <input type="range" name="cuampleanios" min="200" max="1000" step="1" />
+            </p>
+            <p>
+                <input type="checkbox"/>
+                <label for="">Opcion 1</label>
+            </p>
+            <p>
+                <select name="meses" id="">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+    
+                </select>
+            </p>
+            <p>
+                <input type="radio" name="color" value="rojo">
+                <label for="">Rojo</label>
+                <input type="radio" name="color" id="verde">
+                <label for="">Verde</label>
+                <input type="radio" name="color" id="azul">
+                <label for="">Azul</label>
+                <input type="radio" name="color" id="amarillo">
+                <label for="">Amarillo</label>
+                <input type="radio" name="color" id="naranja">
+                <label for="">Naranja</label>
+            </p>
+            <p>
+                <textarea name="muchoTexto" id="" cols="30" rows="10"></textarea>
+            </p>
+            
+            <!-- Forma 1 de poner un boton, ya es un poco vieja-->
+            <!-- 
+            <input type="submit" value="Registrar">
+            -->
+            <!-- Forma 2 de poner un boton -->
+            <button type="submit">Registrar</button>
+
+        </form>
+    </body>
+</html>

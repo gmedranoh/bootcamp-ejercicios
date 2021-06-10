@@ -1,0 +1,70 @@
+
+/*
+.cajas {
+    max-width: 900px;
+    background-color: lightslategray;
+    border: 3px solid black;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column; /* acomoda todo el una columna */
+    /*flex-direction: column-reverse; /* acomoda todo el una columna e invierte los colores de abajo hacia arriba*/
+   /* justify-content: center; /* centra en este caso las cajas */
+    /*align-items: center; /* centrado de forma central *//*
+
+}
+/*
+.caja {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+}
+.roja {
+    background-color: red;
+   /*  align-self: baseline;
+    justify-self: baseline; */ /* para mover mas arriba *//*
+}
+/*
+.verde {
+    background-color: greenyellow;
+
+}
+.azul {
+    background-color: lightskyblue;
+    /*align-self: flex-end; /* con esto movemos de posicion vertical *//*
+}
+
+
+*/
+/* ///////////////////////// */
+.cajas {
+    max-width: 900px;
+    background-color: lightslategray;
+    border: 3px solid black;
+    margin: 0 auto;
+    /* height: 600px; */
+    display: flex;
+    flex-wrap: wrap; /* cuando tenemos muchos elementos, este los distribuye */
+    justify-content: center;
+    align-items: center;    
+   
+}
+.caja {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+}
+.roja {
+    background-color: red;
+  
+}
+.verde {
+    background-color: greenyellow;
+
+}
+.azul {
+    background-color: lightskyblue;
+    
+}

@@ -1,0 +1,68 @@
+/---------------------------   CSS   ---------------------------/
+
+Padding crea espacio extra dentro de un elemento. En contraste, margin crea espacio extra alrededor de un elemento
+
+div {
+    height: 300px;
+    width: 200px;
+    background-color: green; //color de fondo
+    margin-top: 20px; 
+    margin-left:50px;  //margen exterior 
+    padding: 20px; //margen interior
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  30px;
+    font-weight: 700;  //hace que se ponga mas negrita o mas delgada 
+    font-style: italic;
+    text-decoration: underline red; // se subraya con color rojo
+    text-decoration: line-through; //tachado
+    text-transform: uppercase;  // transforma todas las letras en mayusculas
+    text-transform: capitalize ; // primera letra de cada palabra en mayuscula
+    text-transform: lowercase ; //minusculas
+}
+
+class
+para usarlo cuando queremos agregar una propiedad diferente
+
+.uno {
+    background-image: url('../image/mikey.jpg');
+}
+-------------------
+atajo
+ul.menu>li.menu__item*5>a.menu__link y pone lo siguiente:
+
+<ul class="menu">
+    <li class="menu__item"><a href="" class="menu__link"></a></li>
+    <li class="menu__item"><a href="" class="menu__link"></a></li>
+    <li class="menu__item"><a href="" class="menu__link"></a></li>
+    <li class="menu__item"><a href="" class="menu__link"></a></li>
+    <li class="menu__item"><a href="" class="menu__link"></a></li>
+</ul>
+
+-------------
+<table border="1"></table> para tabla
+<tr></tr> fila de una tabla
+<td>Celda 1</td> celdas de una tabla
+<th>Lunes</th> como encabezados de las tablas y se ponen en negritas las palabras
+<td rowspan="4">Descanso</td> --> rowspan se puede usar para extender toda la columna hasta abajo si solo hay un dato y en las otras columnas hay mas datos
+-----------
+formularios
+<form action="">
+    <h3>Registrate</h3>
+    <label for="">Nombre</label> <!-- Hacer referencia al cuadro de input que información va dentro -->
+    <input type="text" />
+    <input type="text">
+</form>
+----
+desde css para bloquear el campo de textarea 
+style="resize: none;"
+
+--------
+BOOTSTRAP
+
+min = minificación, quita todos los espacios y vuelve el archivo menos pesado
+
+-------
